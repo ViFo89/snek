@@ -17,7 +17,7 @@ fn setup(mut commands: Commands) {
     commands.spawn(Camera2d);
 
     commands.spawn((
-        Sprite::from_color(Color::srgb(1.0, 0.0, 0.0), Vec2::new(50.0, 50.0)),
+        Sprite::from_color(Color::srgb(1.0, 0.5, 0.0), Vec2::new(50.0, 50.0)),
         Transform::from_xyz(0., 0., 0.),
         Direction::Right,
     ));
